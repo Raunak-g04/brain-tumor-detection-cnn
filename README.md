@@ -18,3 +18,18 @@ This project uses a **Convolutional Neural Network (CNN)** with **MobileNetV2 tr
 - Brain tumor classification
 
 ## Project Structure
+brain-tumor-detection-cnn
+│
+├── dataset_loader.py
+├── model.py
+├── train_model.py
+├── requirements.txt
+└── README.md
+
+## Installation
+```bash
+pip install -r requirements.txt
+python train_model.py
+Author
+
+Raunak Ghosh
