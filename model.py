@@ -20,12 +20,3 @@ def build_model():
         loss="binary_crossentropy",
         metrics=["accuracy"]
     )
-import matplotlib.pyplot as plt
-plt.plot(history.history['accuracy'])
-plt.plot(history.history['val_accuracy'])
-plt.title('Model Accuracy')
-plt.xlabel('Epoch')
-plt.ylabel('Accuracy')
-plt.legend(['Train', 'Validation'])
-plt.savefig('outputs/accuracy.png')
-    return model
