@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Correct dataset path
-DATASET_PATH = "../dataset/"   # IMPORTANT
+DATASET_PATH = r"C:\Brain Tumor Detection using CNN\dataset"
 
 # Load data (ONLY ONE ARGUMENT)
 train_gen, val_gen = load_data(DATASET_PATH)
