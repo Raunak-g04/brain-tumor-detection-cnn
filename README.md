@@ -11,7 +11,7 @@ This project uses a **Convolutional Neural Network (CNN)** with **MobileNetV2 tr
 - Data augmentation
 - Transfer learning
 - Brain tumor classification
-## 📊 Model Performance
+## Model Performance
 - Training Accuracy: ~92%  
 - Validation Accuracy: ~90%  
 - Optimizer: Adam  
